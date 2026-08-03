@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <unistd.h>
 #include "Simulator/Grid.h"
 #include "Simulator/Robot.h"
 #include "Simulator/AStar.h"

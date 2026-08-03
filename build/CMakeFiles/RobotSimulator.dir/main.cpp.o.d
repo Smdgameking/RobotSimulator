@@ -695,4 +695,16 @@ CMakeFiles/RobotSimulator.dir/main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/stack.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
-  /data/data/com.termux/files/home/RobotSimulator/Simulator/Grid.h
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/fcntl.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/getentropy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/getopt.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/ioctl.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/lockf.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/sysconf.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/android/legacy_unistd_inlines.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/bits/swab.h \
+  /data/data/com.termux/files/home/RobotSimulator/Simulator/Grid.h \
+  /data/data/com.termux/files/home/RobotSimulator/Simulator/Robot.h \
+  /data/data/com.termux/files/home/RobotSimulator/Simulator/AStar.h \
+  /data/data/com.termux/files/home/RobotSimulator/Simulator/Node.h \
+  /data/data/com.termux/files/home/RobotSimulator/Simulator/TTS.h
