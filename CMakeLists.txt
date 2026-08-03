@@ -14,6 +14,7 @@ add_executable(RobotSimulator
     Engine/Time.cpp
 
     Simulator/Grid.cpp
+    Simulator/Node.cpp
     Simulator/Robot.cpp
     Simulator/AStar.cpp
     Simulator/TTS.cpp
