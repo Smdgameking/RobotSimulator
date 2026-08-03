@@ -9,7 +9,8 @@ Node::Node()
     hCost = 0;
     fCost = 0;
 
-    parent = nullptr;
+    parentX = -1;
+    parentY = -1;
 }
 
 Node::Node(int px, int py)
@@ -21,7 +22,8 @@ Node::Node(int px, int py)
     hCost = 0;
     fCost = 0;
 
-    parent = nullptr;
+    parentX = -1;
+    parentY = -1;
 }
 
 void Node::CalculateFCost()

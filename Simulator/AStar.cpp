@@ -54,7 +54,7 @@ Node* AStar::GetLowestFCostNode()
 
     int lowestIndex = 0;
 
-    for (int i = 1; i < openList.size(); i++)
+    for (int i = 1; i < (int)openList.size(); i++)
     {
         if (openList[i].fCost < openList[lowestIndex].fCost)
         {
@@ -70,32 +70,6 @@ Node* AStar::GetLowestFCostNode()
     }
 
     return &openList[lowestIndex];
-}
-
-void AStar::ReconstructPath(Node* goalNode)
-{
-    path.clear();
-
-    Node* current = goalNode;
-
-    while (current != nullptr)
-    {
-        path.push_back(*current);
-
-        if (current->parent == nullptr)
-        {
-            break;
-        }
-
-        current = current->parent;
-    }
-
-    std::reverse(path.begin(), path.end());
-}
-
-std::vector<Node> AStar::GetPath()
-{
-    return path;
 }
 
 bool AStar::FindPath(
@@ -262,4 +236,3 @@ std::vector<Node> AStar::GetPath()
 {
     return path;
 }
-
