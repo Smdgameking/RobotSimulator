@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/RobotSimulator/build/CMakeFiles/RobotSimulator.dir
+/data/data/com.termux/files/home/RobotSimulator/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/RobotSimulator/build/CMakeFiles/rebuild_cache.dir
